@@ -1,0 +1,98 @@
+
+body {
+    background-color: #F4F4F4;
+}
+
+div .jumbotron {
+    background-color: #F4F4F4;
+    padding-left: 50px;
+}
+
+div .container {
+    background-color: #F4F4F4;
+}
+div .checklistContainer {
+    background-color: white;
+    padding: 30px;
+    margin-bottom:50px;
+    border: 1px solid #DDDDDD;
+    border-left: 4px solid #005C95;
+    border-radius: 0px;
+    width: 100%;
+    text-align: left;
+    float: left;
+}
+
+.well {
+    width: 800px;
+    border-style: ridge;
+
+}
+
+#logo-container img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;  /*Sets the text hover color on navbar*/
+    background-color: #082244;
+    box-shadow:inset 0px -5px 0px 0px #FFF;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white; /*BACKGROUND color for active*/
+    background-color: #082244;
+}
+
+.navbar-default {
+    background-color: #094E79;
+    border-color: #094E79;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white; /*Change active text color here*/
+    font-size: medium;
+}
+
+.footer {
+    padding-top:50px;
+    padding-bottom:100px;
+    padding-left:20px;
+    padding-right: 20px;
+    background-color: #094E79;
+    color: white;
+    clear: both;
+    /*border-radius: 5px;*/
+}
+
+.footer a, a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+      .checklistBTN,
+.checklistBTN:focus,
+.checklistBTN:active{
+	border:1px solid black;
+	background:#E1E1E1;
+	outline:none;
+	margin:2px;
+    color: black;
+    
+}
+.checklistBTN span{
+	position: relative;
+}
+
+.linksor a, a:visited, a:hover{
+	color: #338ecf;
+	text-decoration: none;
+}
